@@ -1,6 +1,6 @@
-##Engineering Challenge
+## Engineering Challenge
 
-###Challenge Prompt
+### Challenge Prompt
 
 Create a real-time system that simulates the fulfillment of delivery orders for a kitchen. The system should receive 2 delivery orders per second (see Order Data). Each order takes some time (defined as `prepTime` in order JSON) to be prepared. Once an order is prepared, it is waiting and ready for courier pickup.
 Upon receiving an order, the system should immediately dispatch a courier to pick it up. Couriers arrive randomly following a uniform distribution, 3-15 seconds after they’ve been dispatched. Couriers have to wait at the kitchen if the order they are picking up is not ready. Once an order is picked up by a courier it is instantaneously delivered.
